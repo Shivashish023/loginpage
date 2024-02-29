@@ -1,0 +1,165 @@
+body{
+    background-image:url(./assets/BackGroundImage.png) ;
+    background-size: cover;
+}
+.nav{
+    width: 300px;
+   
+    margin: 0;
+}
+.nav>h1>img{
+    height:60px;
+    width:60px;
+   position: relative;
+   top: 17px;
+}
+.nav>h1{
+    color:white;
+    position:relative;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 33px;
+
+
+}
+.center{
+
+   display:flex;
+   padding: 0;
+   margin: 0;
+   border: 0;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+   gap: 25px;
+   height:70vh;
+   width: 100vw;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.centerbox{
+   
+    height: 400px;
+    width:290px;
+    backdrop-filter: blur(40px);
+    border:2px solid rgba(255,255,255,0.2);
+    border-radius: 3%;
+
+}
+.LoginTitle{
+    width:250px;
+   
+   
+   
+}
+
+h1{
+    margin:0px;
+    /*background-color: white;
+   /*position: relative;
+top:20px;*/
+    text-align: center;
+    border-radius: 3%;
+    color: white;
+
+}
+p{
+    margin:0px;
+}
+.text{
+    margin:10px
+
+}
+.inputname{
+    height:35px;
+    width:238px;
+    background-color:white;
+    border:0px;
+    outline-width: 0;
+    
+    
+}
+input{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.SignupOptions{
+    display:flex;
+    height:250px;
+    position:relative;
+    top:40px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.checkbox{
+    height:15px;
+    display: inline;
+color: white;
+}
+.box{
+    height:40px;
+    width:245px;
+    border:white solid px;
+
+    background-color: rgba(251,216,194,0.5);
+}
+
+.LoginButton{ 
+    background-color: rgb(0, 253, 211,0.8);
+    border-radius: 2px;
+    width:255px;
+    height:25px;
+    position: relative;
+    top:30px;
+
+}
+.LoginButton>button:hover{
+    cursor: pointer;
+}
+
+.LoginText{
+    font-size: 20px;
+}
+.OtherOptions{
+    width:245px;
+    position: relative;
+    top:50px;
+    display:flex;
+    justify-content:space-around;
+}
+img{
+    height:30px;
+}
+
+.PasswordRecovery>a{
+    color:rgb(86, 85, 85);
+    text-decoration: none;
+}
+button{
+    background-color: transparent;
+    border:none;
+    outline-width: 0px;
+    width:245px;
+}
+.Register{
+    position: relative;
+    top:100px;
+   
+}
+.Register>p{
+    color: white;
+    margin-bottom: 10px;
+}
+
+    .skip{
+        position: relative;
+        left: 100px;
+      
+    }
+
+@media(max-width:350px min-width:300px){
+    .centerbox{
+        width:90%;
+    }
+}
